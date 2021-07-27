@@ -1,0 +1,129 @@
+body { 
+			margin: 0; 
+			color: #EEEEEF; 
+			background-color: #000000; 
+} 
+
+/* *HEADER STYLING* */ 
+header div { 
+			margin-top: -40px; 
+} 
+header > div > h1 { 
+			font-size: 4em; 
+			line-height: 90%; 
+			text-align: center; 
+			font-style: italic; 
+			font-family: Helvetica; 
+			font-variant: small-caps; 
+}
+.fa {
+			padding: 20px;
+			font-size: 30px;
+			width: 20%;
+}
+.fa-facebook {
+			color: #FFFFFF;
+			background: #3B5998;
+}
+.fa-instagram {
+			color: #FFFFFF;
+			background: #3B5998;
+}
+.fa-twitter {
+			color: #55ACEE;
+			background: #3B5998;
+}
+
+/* *NAVIGATION SECTION STYLING* */ 
+nav { 
+			margin-top: -50px; 
+			margin-left: -25px; 
+} 
+nav > ul { 
+			display: flex; 
+			flex-wrap: wrap; 
+			flex-direction: row; 
+			justify-content: space-around; 
+} 
+nav > ul > li { 
+			padding: 10px; 
+			font-size: .9em; 
+			list-style: none;
+} 
+nav > ul > li > a { 
+			color: inherit; 
+			text-decoration: none; 
+} 
+.active_link { 
+			color: goldenrod; } 
+
+/* *HORIZONTAL LINE* */ 
+hr { 
+			outline: none; 
+			margin-top: 50px; 
+			border: 2px solid #EEEEEE; 
+} 
+
+/* *MAIN CONTENT STYLING* */ 
+.main { 
+			text-align: center; 
+}
+.listen_now { 
+			margin: 15px auto 60px; 
+} 
+.listen_now > a { 
+			color: goldenrod; 
+			padding: 10px 80px; 
+			text-decoration: none; 
+			border: 1px solid goldenrod; 
+} 
+
+/* *BOTTOM SECTION STYLING* */ 
+.index_bottom { 
+			text-align: center; 
+			padding-bottom: 10px;
+			background-color: #C1C1C1; 
+} 
+.index_bottom > div { 
+			width: 35%; 
+			margin: auto; 
+			padding: 20px; 
+			background-color: #FFFFFF; 
+} 
+.index_bottom > a { 
+			text-decoration: none; 
+}
+.index_bottom > figcaption { 
+			color: #F5F5F5; 
+			font-size: 1.1em; 
+			font-weight: bold;
+			padding-top: 5px; 
+			padding-bottom: 10px; 
+} 
+.index_bottom > .shop_now { 
+			color: #F5F5F5;
+			font-size: .8em; 
+			font-weight: bolder; 
+}
+/* *BOTTOM STYLING ENDS HERE* */
+
+.flex { 
+			display: flex; 
+			padding: 6px 6px 0 6px; 
+			flex-wrap: wrap; 
+			justify-content: space-between; 
+			//grid-column-gap: 10px;
+			//grid-template-columns: 48% 48%; 
+} 
+.flex > .flex-items { 
+			width: 47%; 
+			margin: 5px 5px 0 5px; 
+}
+
+/* *DROPDOWN SECTION STYLING* */ 
+.dropdown > a > img {
+			width: 100%;
+			height: auto;
+}
+
+
